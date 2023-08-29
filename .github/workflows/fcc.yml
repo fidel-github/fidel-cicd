@@ -12,8 +12,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-        - name: Fidel-Git
-          uses: github/fidel-git@v4.9.5
+        - name: Super-Linter
+          uses: github/super-linter@v4.9.5
           env:
             DEFAULT_BRANCH: main
             GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
